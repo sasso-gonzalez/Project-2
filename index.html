@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="RPS.css">
+</head>
+<body>
+<H1>Rock Paper Scissors Game</H1>
+<h3>Select Rock, Paper, or Scissors by clicking on the corresponding image</h3>
+<table>
+    <tr>
+        <th>
+            <img src="IMG_9089.jpg" alt="Rock" onclick="scoreCalc('rock')">
+        </th>
+        <th>
+            <img src="https://wachastory.com/wp-content/uploads/2021/01/A4-Paper-1.jpg" alt="Paper" onclick="scoreCalc('paper')">
+        </th>
+        <th>
+            <img src="https://tse2.mm.bing.net/th?id=OIP.JA8Ag4h-edV2PZb59omEmgHaE7&pid=Api&P=0&h=220" alt="Scissors" onclick="scoreCalc('scissors')">
+        </th>
+    </tr>
+</table>
+
+<h4>Score</h4>
+<p id="p1">Computer:</p>
+<p id="p2">Me:</p>
+<div id="outcomes">
+<H4>Outcomes</H4>
+</div>
+<script src="RPS.js"></script>
+</body>
+</html>
